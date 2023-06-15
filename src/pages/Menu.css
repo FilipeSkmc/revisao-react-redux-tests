@@ -1,0 +1,74 @@
+.cartoon-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cartoon-card {
+  width: 300px;
+  margin: 16px;
+  padding: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f8f8f8;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.cartoon-card__image {
+  width: 100%;
+  max-height: 450px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+.cartoon-card__name {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.cartoon-card__gender,
+.cartoon-card__hair-color,
+.cartoon-card__occupation,
+.cartoon-card__first-episode,
+.cartoon-card__relatives {
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.menu {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  width: 100%;
+}
+
+.menu-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cartoon-card__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 2em;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #f8f8f8;
+}
+
+.box a {
+  color: #f8f8f8;
+  font-size: 1.5em;
+}
